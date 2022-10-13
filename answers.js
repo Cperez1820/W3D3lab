@@ -48,27 +48,21 @@
 // "Fizz Buzz answered"
 //=====================================================================================================================
 
-for (i = 1; i <= 100; i++) {
-    if (i % 3 === 0 && i % 5 ===0) {
-        console.log("Fizzbuzz")
-    } else if( i % 3 === 0 ){
-        console.log("Fizz")
-    } else if(i % 5 === 0 ){
-        console.log("Buzz")
-    } else{
-    console.log(i)
-    }
-}
+// for (i = 1; i <= 100; i++) {
+//     if (i % 3 === 0 && i % 5 ===0) {
+//         console.log("Fizzbuzz")
+//     } else if( i % 3 === 0 ){
+//         console.log("Fizz")
+//     } else if(i % 5 === 0 ){
+//         console.log("Buzz")
+//     } else{
+//     console.log(i)
+//     }
+// }
 
 //========================================================================================================
 // Wild Wild Life
 // Use the following arrays to answer the questions below (name,species ,age, hometown): You should be modifying the elements by accessing them. It is up to you which methods to use.
-
-// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-// const sharky = ["Sharky", "shark", 20, "Left Coast"]
-// const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-// const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 // Plantee just had her birthday; change Plantee's array to reflect her being a year older.
 // Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
 // Give D'Art a second hometown by adding "Hawkins"
@@ -77,8 +71,28 @@ for (i = 1; i <= 100; i++) {
 // "Wild Wild Life answered"
 //=========================================================================================================
 
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
 
+// part one 
+// plantee[2]++
+// console.log(plantee[2])
+
+//part two 
+// wolfy[3] = "Gotham City"
+//     console.log(wolfy[3])
+
+// //part three
+// dart.push("Hawkins")
+// console.log(dart)
+
+// //part four 
+// wolfy[0] = "Gameboy" 
+//     console.log(wolfy)
 
 //========================================================================================================
 // Yell at the Ninja Turtles
