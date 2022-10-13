@@ -71,11 +71,11 @@
 // "Wild Wild Life answered"
 //=========================================================================================================
 
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-const sharky = ["Sharky", "shark", 20, "Left Coast"]
-const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+// const sharky = ["Sharky", "shark", 20, "Left Coast"]
+// const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+// const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
 
 // part one 
@@ -105,18 +105,18 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 //============================================================================================================
 
 
-const array1 = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// const array1 = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
-for (const element of array1) {
-  console.log(element.toUpperCase());
-}
+// for (const element of array1) {
+//   console.log(element.toUpperCase());
+// }
 
 
 //==============================================================================================================
 // Methods, Revisited
 // Here is a list of favMovies:
 
-// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 // Console log: the index of Titanic
 // Do the following and console.log the final results (I have included some thought questions, you don't have to write out an answer for those marked as such):
 // Note: if you have to add to the array, feel free to add any movie you'd like
@@ -138,6 +138,40 @@ for (const element of array1) {
 // "Methods Revisited answered"
 //======================================================================================================================================
 
+//part 0
+console.log(favMovies[8])
+
+// part 0B
+// This sorted out the array in Alphabetic order
+
+// part 1
+sorted = favMovies.sort()
+console.log(sorted)
+
+//part 2
+
+favMovies.pop()
+console.log(favMovies)
+
+//part 3
+favMovies.push("Guardians of the Galaxy")
+
+//part 4
+favMovies.reverse()
+    console.log(favMovies)
+// part 5
+favMovies.shift()
+    console.log(favMovies)
+
+//part 6 
+favMovies.unshift()
+    console.log(favMovies)
+// It returns the same thing, we didn't add a value to it 
+
+//part 7 
+favMovies.splice(favMovies.indexOf('Django Unchained'),18,"Avatar");
+    console.log(favMovies)
+// part 8
 
 
 //==========================================================================================================================
