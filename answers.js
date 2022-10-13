@@ -105,6 +105,12 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 //============================================================================================================
 
 
+const array1 = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+for (const element of array1) {
+  console.log(element.toUpperCase());
+}
+
 
 //==============================================================================================================
 // Methods, Revisited
